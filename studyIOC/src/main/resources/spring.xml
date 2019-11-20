@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default="byType">
+
+    <bean id="dao" class="com.learn.dao.UserDaoImpl"></bean>
+
+    <bean id="service" class="com.learn.service.UserServiceImpl">
+        <!--<property name="userDao" ref="dao"></property>-->
+    </bean>
+</beans>
